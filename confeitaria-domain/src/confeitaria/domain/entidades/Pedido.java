@@ -1,7 +1,7 @@
 
 package confeitaria.domain.entidades;
 
-public class PedidoCliente {
+public class Pedido {
     private int id_pedido;
     private float valor_total;
 
