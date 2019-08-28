@@ -3,6 +3,7 @@ package confeitaria.domain.entidades;
 
 public class Caixa {
     private int id_caixa;
+    private String nome;
     private float saldo_inicial;
     private float saldo_final;
     private String hora_inicial;
@@ -12,6 +13,14 @@ public class Caixa {
 
     public int getId_caixa() {
         return id_caixa;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
     }
 
     public void setId_caixa(int id_caixa) {

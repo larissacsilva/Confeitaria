@@ -3,7 +3,16 @@ package confeitaria.domain.entidades;
 
 public class Pedido {
     private int id_pedido;
+    private String nome;
     private float valor_total;
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
 
     public int getId_pedido() {
         return id_pedido;

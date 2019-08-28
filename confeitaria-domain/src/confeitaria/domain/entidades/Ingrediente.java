@@ -1,7 +1,7 @@
 
 package confeitaria.domain.entidades;
 
-public class Ingredientes {
+public class Ingrediente {
     private int id_ingrediente;
     private String nome;
     private float valor;

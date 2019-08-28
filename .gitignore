@@ -1,2 +1,6 @@
 /confeitaria-domain/nbproject/private/
 /confeitaria-domain/build/
+/confeitaria-webapi/nbproject/private/
+/confeitaria-webapi/build/
+/confeitaria-domain/dist/
+/confeitaria-webapi/dist/

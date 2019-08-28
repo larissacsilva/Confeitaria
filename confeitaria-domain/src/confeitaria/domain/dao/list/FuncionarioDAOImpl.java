@@ -10,6 +10,7 @@ public class FuncionarioDAOImpl implements IFuncionarioDAO{
     private static List<Funcionario> funcionarios = new ArrayList<>();
     private static int lastId = 1;
 
+
     public void cadastrar(Funcionario ent) {
         if(ent == null){
             throw new NullPointerException();

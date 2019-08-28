@@ -9,7 +9,7 @@ public interface IFornecedorDAO {
     
     public void alterar(Fornecedor ent);
     
-    public void excluir(int cpf);
+    public void excluir(int id_fornecedor);
     
     public List<Fornecedor> consultar();
 }
